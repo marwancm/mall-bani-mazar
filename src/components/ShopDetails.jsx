@@ -5,11 +5,28 @@ import food1 from "/src/assets/food1.jpg";
 import maktaba1 from "/src/assets/maktaba1.jpg";
 
 const shops = [
-  { id: 1, name: "محل الأزياء", image: azyaa1, description: "أفضل الملابس والأزياء.", details: "تفاصيل إضافية عن محل الأزياء..." },
-  { id: 2, name: "مطعم الطعم المميز", image: food1, description: "أشهى المأكولات.", details: "تفاصيل إضافية عن المطعم..." },
-  { id: 3, name: "مكتبة المستقبل", image: maktaba1, description: "كتب رائعة لكل الأعمار.", details: "تفاصيل إضافية عن المكتبة..." },
+  {
+    id: 1,
+    name: "محل الأزياء",
+    image: azyaa1,
+    description: "أفضل الملابس والأزياء.",
+    details: "تفاصيل إضافية عن محل الأزياء...",
+  },
+  {
+    id: 2,
+    name: "مطعم الطعم المميز",
+    image: food1,
+    description: "أشهى المأكولات.",
+    details: "تفاصيل إضافية عن المطعم...",
+  },
+  {
+    id: 3,
+    name: "مكتبة المستقبل",
+    image: maktaba1,
+    description: "كتب رائعة لكل الأعمار.",
+    details: "تفاصيل إضافية عن المكتبة...",
+  },
 ];
-
 
 const ShopDetails = () => {
   const { id } = useParams(); // الحصول على معرف المحل من الرابط
