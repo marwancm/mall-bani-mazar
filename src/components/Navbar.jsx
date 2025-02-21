@@ -42,11 +42,7 @@ export default function Example() {
           </div>
           <div className="flex flex-1 items-center justify-end md:justify-between md:flex-row-reverse sm:items-stretch sm:justify-start">
             <div className="flex shrink-0 items-center">
-              <img
-                alt="شركتك"
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500"
-                className="h-8 w-auto"
-              />
+              <a href="#Home" className="h-8 w-auto text-blue-600 font-bold text-2xl">MBM</a>
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">

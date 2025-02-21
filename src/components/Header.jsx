@@ -4,12 +4,20 @@ const Header = () => {
   return (
     <header className="bg-blue-600 text-white p-8 shadow-md">
       <h1 className="text-4xl font-bold text-center">مول بني مزار</h1>
-      <p className="intro mt-8 mb-8 text-xl text-white leading-relaxed text-center">
+      <p className="intro mt-8 mb-8 text-xl text-white leading-relaxed text-center max-w-4xl mx-auto">
         مول بني مزار هو منصة تفاعلية تجمع بين المحلات التجارية المختلفة في مدينة
         بني مزار. تتيح لك المنصة استكشاف محلات متنوعة من أزياء، مطاعم، مكتبات
         وغيرها، مع تقديم تفاصيل وخصائص كل محل بشكل تفاعلي. تسعى المنصة إلى توفير
-        تجربة مستخدم فريدة وسهلة للوصول إلى مختلف الأماكن في المدينة.
+        تجربة مستخدم فريدة وسهلة للوصول إلى مختلف الأماكن في المدينة
       </p>
+      <div className="max-w-4xl mx-auto flex items-center bg-white rounded-md overflow-hidden shadow-md">
+        <input
+          type="text"
+          placeholder="ابحث عن متجر أو فئة..."
+          className="w-full p-4 text-gray-700 focus:outline-none"
+        />
+        <button className="bg-gray-800 text-white px-6 py-4 hover:bg-blue-700">بحث</button>
+      </div>
     </header>
   );
 };
