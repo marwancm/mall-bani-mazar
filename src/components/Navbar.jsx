@@ -10,7 +10,7 @@ const navigation = [
   { name: "عن", href: "#" },
   { name: "المحلات", href: "#" },
   { name: "تواصل معنا", href: "#" },
-  { name: "الرئيسية", href: "#" },
+  { name: "الرئيسية", href: "/" },
 ];
 
 function classNames(...classes) {
