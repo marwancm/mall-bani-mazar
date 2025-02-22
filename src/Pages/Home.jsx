@@ -1,6 +1,6 @@
 import React from "react";
 import ShopList from "../components/ShopList";
-import Header from "../components/Header";
+import Header from "../components/Hero";
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
           ].map((category) => (
             <button
               key={category}
-              className="px-6 py-3 bg-blue-500 text-white rounded-lg text-lg font-semibold shadow-md transition-transform transform hover:scale-105 hover:bg-blue-600"
+              className="px-6 py-3 bg-blue-500 text-white rounded-lg text-lg font-semibold shadow-md transition duration-300 ease-in-out hover:scale-105 hover:bg-blue-600"
             >
               {category}
             </button>

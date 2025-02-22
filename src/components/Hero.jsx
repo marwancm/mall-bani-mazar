@@ -1,8 +1,8 @@
 import React from "react";
 
-const Header = () => {
+const Hero = () => {
   return (
-    <header className="bg-blue-600 text-white p-8 shadow-md">
+    <section className="bg-blue-500 text-white p-8 shadow-md">
       <h1 className="text-4xl font-bold text-center">مول بني مزار</h1>
       <p className="intro mt-8 mb-8 text-xl text-white leading-relaxed text-center max-w-4xl mx-auto">
         مول بني مزار هو منصة تفاعلية تجمع بين المحلات التجارية المختلفة في مدينة
@@ -16,10 +16,10 @@ const Header = () => {
           placeholder="ابحث عن متجر أو فئة..."
           className="w-full p-4 text-gray-700 focus:outline-none"
         />
-        <button className="bg-gray-800 text-white px-6 py-4 hover:bg-blue-700">بحث</button>
+<button className="bg-gray-800 text-white px-6 py-4 transition duration-300 ease-in-out hover:bg-red-700">بحث</button>
       </div>
-    </header>
+    </section>
   );
 };
 
-export default Header;
+export default Hero;

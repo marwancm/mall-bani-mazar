@@ -2,18 +2,15 @@ import {
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuItems,
 } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import logoimg from "../assets/logo.jpg";
 
 const navigation = [
-  { name: "الرئيسية", href: "#", current: true },
-  { name: "تواصل معنا", href: "#", current: false },
-  { name: "المحلات", href: "#", current: false },
-  { name: "عن", href: "#", current: false },
+  { name: "عن", href: "#" },
+  { name: "المحلات", href: "#" },
+  { name: "تواصل معنا", href: "#" },
+  { name: "الرئيسية", href: "#" },
 ];
 
 function classNames(...classes) {
@@ -22,12 +19,12 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-blue-500">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-        <div className="relative flex h-16 items-center justify-between ">
+        <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             {/* زر قائمة الموبايل */}
-            <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+            <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
               <span className="absolute -inset-0.5" />
               <span className="sr-only">فتح القائمة الرئيسية</span>
               <Bars3Icon
@@ -42,7 +39,9 @@ export default function Example() {
           </div>
           <div className="flex flex-1 items-center justify-end md:justify-between md:flex-row-reverse sm:items-stretch sm:justify-start">
             <div className="flex shrink-0 items-center">
-              <a href="#Home" className="h-8 w-auto text-blue-600 font-bold text-2xl">MBM</a>
+              <a href="/">
+                <img src={logoimg} alt="Logo" className="h-14 w-auto" />
+              </a>
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
@@ -50,13 +49,7 @@ export default function Example() {
                   <a
                     key={item.name}
                     href={item.href}
-                    aria-current={item.current ? "page" : undefined}
-                    className={classNames(
-                      item.current
-                        ? "bg-gray-900 text-white"
-                        : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                      "rounded-md px-3 py-2 text-sm font-medium"
-                    )}
+                    className="text-white transition duration-300 ease-in-out hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                   >
                     {item.name}
                   </a>
@@ -74,13 +67,7 @@ export default function Example() {
               key={item.name}
               as="a"
               href={item.href}
-              aria-current={item.current ? "page" : undefined}
-              className={classNames(
-                item.current
-                  ? "bg-gray-900 text-white"
-                  : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                "block rounded-md px-3 py-2 text-base font-medium"
-              )}
+              className="text-white transition duration-300 ease-in-out hover:bg-blue-600 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
             >
               {item.name}
             </DisclosureButton>
