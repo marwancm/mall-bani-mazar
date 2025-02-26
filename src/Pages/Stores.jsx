@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import azyaa1 from "/src/assets/azyaa1.jpg";
 import food1 from "/src/assets/food1.jpg";
 import maktaba1 from "/src/assets/maktaba1.jpg";
