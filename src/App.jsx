@@ -2,14 +2,13 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import Stores from "./Pages/Stores";
-import About from"./Pages/About"
+import About from "./Pages/About";
 import ShopDetails from "./Pages/ShopDetails";
-import Login from "./pages/Login";
+import Login from "./Pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./Pages/Dashboard";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-
 
 const App = () => {
   return (
