@@ -5,7 +5,7 @@ import Stores from "./Pages/Stores";
 import About from "./Pages/About";
 import ShopDetails from "./Pages/ShopDetails";
 import Login from "./Pages/Login";
-import Register from "./pages/Register";
+import Register from "./Pages/Register";
 import Dashboard from "./Pages/Dashboard";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
