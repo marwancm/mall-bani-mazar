@@ -9,6 +9,7 @@ import Register from "./Pages/register";
 import Dashboard from "./Pages/Dashboard";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import ProductDetails from "./components/ProductDetails";
 
 const App = () => {
   return (
@@ -20,8 +21,8 @@ const App = () => {
         <Route path="/About" element={<About />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        {/* <Route path="/shop-details" element={<ShopDetails />} /> */}
         <Route path="/shop/:id" element={<ShopDetails />} />
+        <Route path="/product/:id" element={<ProductDetails />} />
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
       <Footer />
