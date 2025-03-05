@@ -24,7 +24,7 @@ const About = () => {
           <div className="bg-white shadow-xl rounded-lg p-6 w-64 text-center border border-gray-200">
             <img src={founder1} alt="المؤسس الأول" className="w-24 h-24 mx-auto rounded-full border-4 border-blue-500" />
             <h4 className="text-xl font-semibold mt-3 text-gray-900">مروان حجازي</h4>
-            <p className="text-gray-600 font-medium">المؤسس التقني (CTO)</p>
+            {/* <p className="text-gray-600 font-medium">المؤسس التقني (CTO)</p> */}
             <p className="text-gray-500 mt-2">Front-end Developer</p>
             <p className="text-gray-700 mt-3 font-semibold">📞 01030011543</p>
             <div className="flex justify-center gap-4 mt-3">
@@ -38,7 +38,7 @@ const About = () => {
           <div className="bg-white shadow-xl rounded-lg p-6 w-64 text-center border border-gray-200">
             <img src={founder2} alt="المؤسس الثاني" className="w-24 h-24 mx-auto rounded-full border-4 border-blue-500" />
             <h4 className="text-xl font-semibold mt-3 text-gray-900">حمدي عثمان</h4>
-            <p className="text-gray-600 font-medium">المؤسس والرئيس التنفيذي</p>
+            {/* <p className="text-gray-600 font-medium">المؤسس والرئيس التنفيذي</p> */}
             <p className="text-gray-500 mt-2">Marketing & Growth</p>
             <p className="text-gray-700 mt-3 font-semibold">📞 01110042364</p>
             <div className="flex justify-center gap-4 mt-3">
