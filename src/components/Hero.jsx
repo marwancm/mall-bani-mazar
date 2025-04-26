@@ -4,9 +4,9 @@ const Hero = () => {
   return (
     <section className="bg-blue-500 text-white p-8 shadow-md text-center">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold">مول بني مزار</h1>
+        <h1 className="text-4xl font-bold">ماركت مصر</h1>
         <p className="mt-8 mb-8 text-xl leading-relaxed">
-          مول بني مزار هو منصة تفاعلية تجمع بين المحلات التجارية المختلفة في مدينة بني مزار. تتيح لك المنصة استكشاف محلات متنوعة من أزياء، مطاعم، مكتبات وغيرها، مع تقديم تفاصيل وخصائص كل محل بشكل تفاعلي. تسعى المنصة إلى توفير تجربة مستخدم فريدة وسهلة للوصول إلى مختلف الأماكن في المدينة.
+          ماركت مصر هو منصة تفاعلية تجمع بين المحلات التجارية المختلفة في مصر. تتيح لك المنصة استكشاف محلات متنوعة من أزياء، مطاعم، مكتبات وغيرها، مع تقديم تفاصيل وخصائص كل محل بشكل تفاعلي. تسعى المنصة إلى توفير تجربة مستخدم فريدة وسهلة للوصول إلى مختلف الأماكن في المدينة.
         </p>
         <div className="flex items-center bg-white rounded-md overflow-hidden shadow-md">
           <input

@@ -18,7 +18,7 @@ const ShopList = () => {
       <section>
       <main className="flex-grow container mx-auto p-6">
         <h1 className="text-3xl font-extrabold text-center mb-8 text-gray-800">
-          محلات داخل بني مزار
+          محلات داخل مصر
         </h1>
         <div className="flex flex-wrap justify-center gap-4 mb-8">
           {[
