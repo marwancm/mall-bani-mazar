@@ -95,13 +95,6 @@ const ShopDetails = () => {
         ))}
       </div>
 
-      {/* زر العودة */}
-      <div
-        className="border rounded-lg shadow-md bg-gray-100 mt-6 cursor-pointer p-4 text-center"
-        onClick={() => (window.location.href = "/")}
-      >
-        <h2 className="text-lg font-bold">🔙 عودة إلى قائمة المحلات</h2>
-      </div>
     </div>
   );
 };

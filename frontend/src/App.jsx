@@ -10,6 +10,7 @@ import Dashboard from "./Pages/Dashboard";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import ProductDetails from "./components/ProductDetails";
+import ChatPage from "./Pages/ChatPage";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/shop/:id" element={<ShopDetails />} />
         <Route path="/product/:id" element={<ProductDetails />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/chat" element={<ChatPage />} />
       </Routes>
       <Footer />
     </>
